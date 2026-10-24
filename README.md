@@ -49,7 +49,7 @@ I also mutation-tested the suite by deliberately breaking the code (fit on all r
 * CLI/batch only (no HTTP API); pandas on one process, fine for thousands of rows, not for production volumes.
 * Naive local timestamps are assumed to be WIB; the validation report counts quarantined rows but does not yet check the hour-of-day distribution per format.
 
-## AI-tool-use disclosure  (author must edit - see brackets)
+## AI-tool-use disclosure
 * Tools used: Gemini and Claude.
 * Gemini was used to scan all the tasks that needed to be completed, and then to evaluate potential solutions. Furthermore, Gemini was employed for the initial creation of `generate_data.py`, `scoring_engine.py`, and `test_engine.py`.
 * Claude reviewed my earlier draft (3 tables with 4 transactions) and wrote this version of `generate_data.py`, `scoring_engine.py` and `test_engine.py`, and ran the tests and mutation checks described above.
