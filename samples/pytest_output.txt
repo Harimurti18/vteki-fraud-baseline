@@ -1,0 +1,27 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python
+rootdir: /home/claude/baseline/vteki-fraud-baseline
+collecting ... collected 20 items
+
+test_engine.py::test_exact_duplicates_and_replays_are_removed_earliest_copy_wins PASSED [  5%]
+test_engine.py::test_mixed_timestamp_formats_parse_to_the_same_instant PASSED [ 10%]
+test_engine.py::test_customer_id_formats_are_canonicalised PASSED        [ 15%]
+test_engine.py::test_bad_timestamp_and_orphan_customer_are_quarantined_not_crashing PASSED [ 20%]
+test_engine.py::test_missing_device_id_stays_missing_and_is_not_a_shared_unknown_device PASSED [ 25%]
+test_engine.py::test_future_rows_and_late_arriving_rows_are_not_used PASSED [ 30%]
+test_engine.py::test_transaction_is_excluded_from_its_own_history PASSED [ 35%]
+test_engine.py::test_device_cold_start_guard_and_new_device_rule PASSED  [ 40%]
+test_engine.py::test_properties_future_data_never_changes_past_features PASSED [ 45%]
+test_engine.py::test_isolation_forest_is_not_fit_on_the_period_it_scores PASSED [ 50%]
+test_engine.py::test_anomaly_signal_is_unavailable_inside_training_window PASSED [ 55%]
+test_engine.py::test_household_sharing_one_device_is_not_flagged PASSED  [ 60%]
+test_engine.py::test_device_shared_by_many_accounts_is_flagged PASSED    [ 65%]
+test_engine.py::test_device_sharing_count_ignores_future_and_late_users PASSED [ 70%]
+test_engine.py::test_reasons_are_ordered_by_points_and_score_is_numeric PASSED [ 75%]
+test_engine.py::test_decision_version_changes_when_a_rule_changes PASSED [ 80%]
+test_engine.py::test_scores_do_not_depend_on_row_order PASSED            [ 85%]
+test_engine.py::test_output_is_deterministic_and_schema_is_stable PASSED [ 90%]
+test_engine.py::test_cli_works_from_any_directory_and_matches_in_process_result PASSED [ 95%]
+test_engine.py::test_ground_truth_is_never_needed PASSED                 [100%]
+
+============================= 20 passed in 12.62s ==============================

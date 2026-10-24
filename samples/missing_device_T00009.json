@@ -1,0 +1,21 @@
+{
+  "transaction_id": "T00009",
+  "as_of": "2026-09-01 01:02:06",
+  "risk_score": 0,
+  "risk_band": "LOW",
+  "reasons": [],
+  "decision_version": "rules+iforest@09962ff7",
+  "evidence": {
+    "device_age_hours": null,
+    "device_n_customers": null,
+    "failed_logins_1h": 0,
+    "txn_count_1h": 0,
+    "amount_ratio_30d": null,
+    "account_age_days": 224.043125,
+    "history_days": 0.0,
+    "amount": 93000.0,
+    "customer_id": 245,
+    "device_id": null,
+    "anomaly_percentile": null
+  }
+}

@@ -1,0 +1,9 @@
+# Bytecode & test caches
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local drafts and archives
+*.docx
+*.zip
+*.log

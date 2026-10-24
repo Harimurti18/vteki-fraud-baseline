@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "rows": {
+    "customers": 302,
+    "login_events": 8907,
+    "transactions": 2761
+  },
+  "transactions": {
+    "exact_duplicate_rows": 40,
+    "repeated_ids_total": 67,
+    "missing_device_rate": 0.05,
+    "raw_timestamp_formats": {
+      "iso": 2221,
+      "local": 540
+    }
+  },
+  "ground_truth": {
+    "fraud_txn_rate": 0.0238,
+    "by_scenario": {
+      "normal": 2630,
+      "ring": 51,
+      "ato": 13
+    },
+    "note": "scenario rates are my construction, not evidence about real fraud"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "transaction_id": "T00916",
+  "as_of": "2026-09-10 13:06:32",
+  "risk_score": 25,
+  "risk_band": "MEDIUM",
+  "reasons": [
+    "DEVICE_MANY_ACCOUNTS"
+  ],
+  "decision_version": "rules+iforest@09962ff7",
+  "evidence": {
+    "device_age_hours": 0.016666666666666666,
+    "device_n_customers": 5,
+    "failed_logins_1h": 0,
+    "txn_count_1h": 0,
+    "amount_ratio_30d": null,
+    "account_age_days": 8.546203703703704,
+    "history_days": 0.0006944444444444445,
+    "amount": 99000.0,
+    "customer_id": 294,
+    "device_id": "dev_0017",
+    "anomaly_percentile": null
+  }
+}

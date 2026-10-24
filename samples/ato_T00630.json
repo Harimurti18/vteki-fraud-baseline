@@ -1,0 +1,24 @@
+{
+  "transaction_id": "T00630",
+  "as_of": "2026-09-07 23:33:00",
+  "risk_score": 55,
+  "risk_band": "HIGH",
+  "reasons": [
+    "NEW_DEVICE_HIGH_VALUE",
+    "LOGIN_FAILURE_BURST"
+  ],
+  "decision_version": "rules+iforest@09962ff7",
+  "evidence": {
+    "device_age_hours": 0.5022222222222222,
+    "device_n_customers": 1,
+    "failed_logins_1h": 3,
+    "txn_count_1h": 0,
+    "amount_ratio_30d": null,
+    "account_age_days": 104.98125,
+    "history_days": 4.554143518518519,
+    "amount": 2313000.0,
+    "customer_id": 246,
+    "device_id": "dev_atk2",
+    "anomaly_percentile": null
+  }
+}
